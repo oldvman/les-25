@@ -1,0 +1,52 @@
+#container {
+  min-height: 60%;
+}
+
+#container img {
+  /* position:absolute;z-index:1; */
+  left: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#containertwee {
+  position: relative;
+}
+
+
+#containertwee img {
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#containertwee img.actief {
+  z-index: 3
+}
+
+.foto2 {
+  display: none;
+}
+
+.mb-3 {
+  color: darkslategray;
+}
+
+#header {
+  background-color: lightblue;
+  min-height: 20%;
+}
+
+#footer {
+  background-color: lightblue;
+  min-height: 10%;
+}
+
+.tekst-footer {
+  color: darkslategray;
+}
